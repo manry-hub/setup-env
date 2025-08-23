@@ -1,0 +1,50 @@
+XTerm.vt100.translations: #override \
+  Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+  Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
+
+! --- Font Settings ---
+XTerm*faceName: Monospace
+XTerm*faceSize: 12
+XTerm*utf8: 2
+! --- Window Size ---
+XTerm*VT100*geometry: 90x11
+
+! --- Cursor Settings ---
+XTerm*cursorUnderLine: true
+XTerm*cursorBlink: true
+
+! --- Colors ---
+	! XTerm Color Scheme: BlueBright on Black
+
+XTerm*background: #000000
+XTerm*foreground: #bcdfff
+
+XTerm*cursorColor: #00bfff
+
+! 16 Color Space (Blue-Oriented)
+XTerm*color0:  #000000
+XTerm*color1:  #3c4cff
+XTerm*color2:  #009fc0
+XTerm*color3:  #00bfff
+XTerm*color4:  #1e90ff
+XTerm*color5:  #5f9ea0
+XTerm*color6:  #add8e6
+XTerm*color7:  #d0e7ff
+XTerm*color8:  #1c1c1c
+XTerm*color9:  #5f87ff
+XTerm*color10: #00ccff
+XTerm*color11: #66ccff
+XTerm*color12: #3399ff
+XTerm*color13: #99ccff
+XTerm*color14: #cceeff
+XTerm*color15: #ffffff
+
+! --- Enable Copy Paste with Mouse ---
+XTerm*selectToClipboard: true
+
+! --- Bell ---
+XTerm*bellIsUrgent: true
+XTerm*visualBell: false
+XTerm*eightBitInput: false
+XTerm*metaSendsEscape: true
+XTerm*locale: true
