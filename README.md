@@ -1,6 +1,6 @@
 # Applications
 
--   Vscode, Netbeans, DataGrip, Docker, Postman, Warp Terminal, Obsidian, Brave, LocalWP, Xterm, LibreOffice, XAMPP, blur my shell, zsh
+-   Vscode, Netbeans, Dbeaver, Docker, Postman, Warp Terminal, Obsidian, Brave, LocalWP, Xterm, LibreOffice, XAMPP, blur my shell, zsh
 
 # Manajemen
 
@@ -16,3 +16,7 @@
 # Boot Manager
 
 -   Refind (theme rose pine)
+
+# Operating System
+
+-   Debian
