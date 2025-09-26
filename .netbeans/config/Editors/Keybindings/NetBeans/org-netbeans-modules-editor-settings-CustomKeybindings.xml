@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bindings PUBLIC "-//NetBeans//DTD Editor KeyBindings settings 1.1//EN" "http://www.netbeans.org/dtds/EditorKeyBindings-1_1.dtd">
+<bindings>
+    <bind actionName="addCaretSelectNext" key="D-DOWN"/>
+    <bind actionName="copy-selection-else-line-down" key="D-D"/>
+    <bind actionName="move-selection-else-line-down" key="O-DOWN"/>
+    <bind actionName="move-selection-else-line-up" key="O-UP"/>
+    <bind actionName="zoom-text-in" key="D-EQUALS"/>
+    <bind actionName="zoom-text-out" key="D-MINUS"/>
+    <bind key="SD-C" remove="true"/>
+    <bind key="SD-OPEN_BRACKET" remove="true"/>
+    <bind key="D-J" remove="true"/>
+    <bind key="S-SPACE" remove="true"/>
+    <bind key="O-MOUSE_WHEEL_DOWN" remove="true"/>
+    <bind key="D-OPEN_BRACKET" remove="true"/>
+    <bind key="SO-KP_DOWN" remove="true"/>
+    <bind key="SD-KP_UP" remove="true"/>
+    <bind key="S-F10" remove="true"/>
+    <bind key="SD-DOWN" remove="true"/>
+    <bind key="D-UP" remove="true"/>
+    <bind key="D-KP_DOWN" remove="true"/>
+    <bind key="SO-UP" remove="true"/>
+    <bind key="SO-OPEN_BRACKET" remove="true"/>
+    <bind key="SD-KP_DOWN" remove="true"/>
+    <bind key="O-MOUSE_WHEEL_UP" remove="true"/>
+    <bind key="SO-KP_UP" remove="true"/>
+    <bind key="SO-DOWN" remove="true"/>
+    <bind key="SD-UP" remove="true"/>
+</bindings>

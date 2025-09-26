@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.2//EN" "https://netbeans.apache.org/dtds/EditorFontsColors-1_2.dtd">
+<fontscolors>
+    <fontcolor bgColor="ff212121" foreColor="white" name="default">
+        <font name="Monospaced" size="16" style="plain"/>
+    </fontcolor>
+    <fontcolor name="warning" waveUnderlined="yellow"/>
+    <fontcolor bgColor="ffffff" foreColor="red" name="error" waveUnderlined="red"/>
+    <fontcolor name="separator"/>
+    <fontcolor name="url" underline="blue"/>
+</fontscolors>

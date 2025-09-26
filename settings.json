@@ -1,0 +1,133 @@
+{
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.iconTheme": "bearded-icons",
+    "oneDarkPro.bold": true,
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#c6d0d33f",
+        "editor.background": "#000000",
+        "statusBar.background": "#292929",
+        "tab.inactiveBackground": "#000000",
+        "tab.border": "#494949",
+        "sideBarTitle.background": "#000000",
+        "activityBar.background": "#000000",
+        "sideBar.background": "#000000",
+        "panel.background": "#000000",
+        "terminal.background": "#000000",
+        "statusBarItem.remoteBackground": "#585857"
+    },
+    "workbench.startupEditor": "none",
+    "workbench.layoutControl.enabled": false,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.panel.showLabels": false,
+    "window.commandCenter": false,
+    "window.newWindowProfile": "node + ts",
+    "workbench.settings.applyToAllProfiles": ["workbench.startupEditor", "codesnap.transparentBackground"],
+    "workbench.editor.enablePreview": true,
+    "workbench.editor.enablePreviewFromCodeNavigation": true,
+    "workbench.editor.pinnedTabsOnSeparateRow": true,
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.env.linux": {},
+    "editor.fontSize": 13,
+    "chat.editor.fontSize": 17,
+    "editor.lineHeight": 23,
+    "editor.fontFamily": "Fira Code",
+    "editor.codeLensFontFamily": "Fira Code, monospace",
+    "editor.fontLigatures": false,
+    "editor.letterSpacing": 0.4,
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "expand",
+    "editor.linkedEditing": true,
+    "editor.autoIndent": "full",
+    "editor.guides.bracketPairs": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "on",
+    "editor.tabSize": 8,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "editor.minimap.size": "fit",
+    "editor.minimap.autohide": "mouseover",
+    "editor.minimap.sectionHeaderFontSize": 19,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 15000,
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/.next": true,
+        "**/.turbo": true,
+        "**/.vercel": true,
+        "**/.expo": true,
+        "**/packages/**/node_modules": true,
+        "**/dist": true,
+        "**/build": true,
+        "**/yarn.lock": false,
+        "**/prisma/migrations": true,
+        "**/coverage": true,
+        "**/logs": true,
+        "**/tmp": true,
+        "**/.cache": true,
+        "**/.eslintcache": true
+    },
+    "security.workspace.trust.enabled": false,
+    "search.showLineNumbers": true,
+    "zenMode.centerLayout": false,
+    "codesnap.transparentBackground": true,
+    "extensions.autoUpdate": false,
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    },
+    "path-intellisense.showHiddenFiles": true,
+    "npm-intellisense.packageSubfoldersIntellisense": true,
+    "workbench.externalBrowser": "chrome",
+    "database-client.autoSync": true,
+    "database-client.capitalizeKeywordsWhenFormatting": true,
+    "database-client.formatOnSave": true,
+    "database-client.defaultConnection": "local",
+    "redhat.telemetry.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 150,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.analysis.typeCheckingMode": "standard",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.callArgumentNames": "all",
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.useLibraryCodeForTypes": true,
+    "python.analysis.indexing": true,
+    "python.analysis.packageIndexDepths": [
+        {
+            "name": "numpy",
+            "depth": 2
+        },
+        {
+            "name": "pandas",
+            "depth": 2
+        }
+    ],
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": false
+}
+

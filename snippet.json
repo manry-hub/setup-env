@@ -1,0 +1,415 @@
+{
+   "Swagger GET": {
+      "prefix": "swagger-get",
+      "body": [
+         "\"$1\": {",
+         "  \"get\": {",
+         "    \"summary\": \"$2 Get resource\",",
+         "    \"responses\": {",
+         "      \"200\": {",
+         "        \"description\": \"Success\"",
+         "      }",
+         "    }",
+         "  }",
+         "}"
+      ],
+      "description": "Swagger GET endpoint"
+   },
+   "Swagger POST": {
+      "prefix": "swagger-post",
+      "body": [
+         "\"$1\": {",
+         "  \"post\": {",
+         "    \"summary\": \"$2 Create resource\",",
+         "    \"requestBody\": {",
+         "      \"required\": true,",
+         "      \"content\": {",
+         "        \"application/json\": {",
+         "          \"schema\": {",
+         "            \"type\": \"object\"",
+         "          }",
+         "        }",
+         "      }",
+         "    },",
+         "    \"responses\": {",
+         "      \"201\": {",
+         "        \"description\": \"Created\"",
+         "      }",
+         "    }",
+         "  }",
+         "}"
+      ],
+      "description": "Swagger POST endpoint"
+   },
+   "Swagger PUT": {
+      "prefix": "swagger-put",
+      "body": [
+         "\"$1\": {",
+         "  \"put\": {",
+         "    \"summary\": \"$2 Update resource\",",
+         "    \"requestBody\": {",
+         "      \"required\": true,",
+         "      \"content\": {",
+         "        \"application/json\": {",
+         "          \"schema\": {",
+         "            \"type\": \"object\"",
+         "          }",
+         "        }",
+         "      }",
+         "    },",
+         "    \"responses\": {",
+         "      \"200\": {",
+         "        \"description\": \"Updated\"",
+         "      }",
+         "    }",
+         "  }",
+         "}"
+      ],
+      "description": "Swagger PUT endpoint"
+   },
+   "Swagger PATCH": {
+      "prefix": "swagger-patch",
+      "body": [
+         "\"$1\": {",
+         "  \"patch\": {",
+         "    \"summary\": \"$2 Partially update resource\",",
+         "    \"requestBody\": {",
+         "      \"required\": true,",
+         "      \"content\": {",
+         "        \"application/json\": {",
+         "          \"schema\": {",
+         "            \"type\": \"object\"",
+         "          }",
+         "        }",
+         "      }",
+         "    },",
+         "    \"responses\": {",
+         "      \"200\": {",
+         "        \"description\": \"Updated\"",
+         "      }",
+         "    }",
+         "  }",
+         "}"
+      ],
+      "description": "Swagger PATCH endpoint"
+   },
+   "Swagger DELETE": {
+      "prefix": "swagger-delete",
+      "body": [
+         "\"$1\": {",
+         "  \"delete\": {",
+         "    \"summary\": \"$2 Delete resource\",",
+         "    \"responses\": {",
+         "      \"204\": {",
+         "        \"description\": \"Deleted\"",
+         "      }",
+         "    }",
+         "  }",
+         "}"
+      ],
+      "description": "Swagger DELETE endpoint"
+   },
+   "Swagger Property": {
+      "prefix": "swagger-prop",
+      "body": [
+         "\"$1\": {",
+         "  \"type\": \"$2\",",
+         "  \"description\": \"$3\"$4",
+         "}"
+      ],
+      "description": "Swagger schema property"
+   },
+   "Swagger String Property": {
+      "prefix": "swagger-prop-string",
+      "body": [
+         "\"$1\": {",
+         "  \"type\": \"string\",",
+         "  \"example\": \"$2\",",
+         "  \"description\": \"$3\"",
+         "}"
+      ],
+      "description": "String property with example"
+   },
+   "Swagger Integer Property": {
+      "prefix": "swagger-prop-int",
+      "body": [
+         "\"$1\": {",
+         "  \"type\": \"integer\",",
+         "  \"format\": \"int32\",",
+         "  \"example\": $2,",
+         "  \"description\": \"$3\"",
+         "}"
+      ],
+      "description": "Integer property with example"
+   },
+   "Swagger Boolean Property": {
+      "prefix": "swagger-prop-bool",
+      "body": [
+         "\"$1\": {",
+         "  \"type\": \"boolean\",",
+         "  \"example\": $2,",
+         "  \"description\": \"$3\"",
+         "}"
+      ],
+      "description": "Boolean property with example"
+   },
+   "Swagger Array Property": {
+      "prefix": "swagger-prop-array",
+      "body": [
+         "\"$1\": {",
+         "  \"type\": \"array\",",
+         "  \"items\": {",
+         "    \"type\": \"$2\"",
+         "  },",
+         "  \"description\": \"$3\"",
+         "}"
+      ],
+      "description": "Array property"
+   },
+   "Swagger Object Property": {
+      "prefix": "swagger-prop-obj",
+      "body": [
+         "\"$1\": {",
+         "  \"type\": \"object\",",
+         "  \"properties\": {",
+         "    $2",
+         "  },",
+         "  \"description\": \"$3\"",
+         "}"
+      ],
+      "description": "Nested object property"
+   },
+   "Swagger 200 OK": {
+      "prefix": "swagger-200",
+      "body": [
+         "\"200\": {",
+         "  \"description\": \"OK - Request sukses, respons normal.\",",
+         "  \"content\": {",
+         "    \"application/json\": {",
+         "      \"schema\": {",
+         "        $1",
+         "      }",
+         "    }",
+         "  }",
+         "}"
+      ],
+      "description": "200 OK response"
+   },
+   "Swagger 201 Created": {
+      "prefix": "swagger-201",
+      "body": [
+         "\"201\": {",
+         "  \"description\": \"Created - Resource berhasil dibuat.\",",
+         "  \"content\": {",
+         "    \"application/json\": {",
+         "      \"schema\": {",
+         "        $1",
+         "      }",
+         "    }",
+         "  }",
+         "}"
+      ],
+      "description": "201 Created response"
+   },
+   "Swagger 204 No Content": {
+      "prefix": "swagger-204",
+      "body": [
+         "\"204\": {",
+         "  \"description\": \"No Content - Request sukses tanpa body response.\"",
+         "}"
+      ],
+      "description": "204 No Content response"
+   },
+   "Swagger 400 Bad Request": {
+      "prefix": "swagger-400",
+      "body": [
+         "\"400\": {",
+         "  \"description\": \"Bad Request - Request client salah (validasi gagal, dsb).\",",
+         "  \"content\": {",
+         "    \"application/json\": {",
+         "      \"schema\": {",
+         "        $1",
+         "      }",
+         "    }",
+         "  }",
+         "}"
+      ],
+      "description": "400 Bad Request response"
+   },
+   "Swagger 401 Unauthorized": {
+      "prefix": "swagger-401",
+      "body": [
+         "\"401\": {",
+         "  \"description\": \"Unauthorized - Kredensial tidak valid atau token salah/expired.\",",
+         "  \"content\": {",
+         "    \"application/json\": {",
+         "      \"schema\": {",
+         "        $1",
+         "      }",
+         "    }",
+         "  }",
+         "}"
+      ],
+      "description": "401 Unauthorized response"
+   },
+   "Swagger 403 Forbidden": {
+      "prefix": "swagger-403",
+      "body": [
+         "\"403\": {",
+         "  \"description\": \"Forbidden - User tidak punya hak akses walau sudah login.\",",
+         "  \"content\": {",
+         "    \"application/json\": {",
+         "      \"schema\": {",
+         "        $1",
+         "      }",
+         "    }",
+         "  }",
+         "}"
+      ],
+      "description": "403 Forbidden response"
+   },
+   "Swagger 404 Not Found": {
+      "prefix": "swagger-404",
+      "body": [
+         "\"404\": {",
+         "  \"description\": \"Not Found - Resource atau endpoint tidak ditemukan.\",",
+         "  \"content\": {",
+         "    \"application/json\": {",
+         "      \"schema\": {",
+         "        $1",
+         "      }",
+         "    }",
+         "  }",
+         "}"
+      ],
+      "description": "404 Not Found response"
+   },
+   "Swagger 409 Conflict": {
+      "prefix": "swagger-409",
+      "body": [
+         "\"409\": {",
+         "  \"description\": \"Conflict - Terjadi konflik (misal data sudah ada).\",",
+         "  \"content\": {",
+         "    \"application/json\": {",
+         "      \"schema\": {",
+         "        $1",
+         "      }",
+         "    }",
+         "  }",
+         "}"
+      ],
+      "description": "409 Conflict response"
+   },
+   "Swagger 422 Unprocessable Entity": {
+      "prefix": "swagger-422",
+      "body": [
+         "\"422\": {",
+         "  \"description\": \"Unprocessable Entity - Validasi input gagal.\",",
+         "  \"content\": {",
+         "    \"application/json\": {",
+         "      \"schema\": {",
+         "        $1",
+         "      }",
+         "    }",
+         "  }",
+         "}"
+      ],
+      "description": "422 Unprocessable Entity response"
+   },
+   "Swagger 500 Internal Server Error": {
+      "prefix": "swagger-500",
+      "body": [
+         "\"500\": {",
+         "  \"description\": \"Internal Server Error - Bug atau error di sisi server.\",",
+         "  \"content\": {",
+         "    \"application/json\": {",
+         "      \"schema\": {",
+         "        $1",
+         "      }",
+         "    }",
+         "  }",
+         "}"
+      ],
+      "description": "500 Internal Server Error response"
+   },
+   "Swagger Schema Ref": {
+      "prefix": "swagger-ref",
+      "body": [
+         "\"$ref\": \"#/components/schemas/$1\""
+      ],
+      "description": "Reference existing schema"
+   },
+   "Swagger Endpoint Full": {
+      "prefix": "swagger-endpoint",
+      "body": [
+         "\"/$1\": {",
+         "  \"$2\": {",
+         "    \"summary\": \"$3\",",
+         "    \"parameters\": [",
+         "      $4",
+         "    ],",
+         "    \"requestBody\": {",
+         "      \"required\": true,",
+         "      \"content\": {",
+         "        \"application/json\": {",
+         "          \"schema\": { $5 }",
+         "        }",
+         "      }",
+         "    },",
+         "    \"responses\": {",
+         "      $6",
+         "    }",
+         "  }",
+         "}"
+      ],
+      "description": "Full endpoint template"
+   },
+   "Swagger Schema Object": {
+      "prefix": "swagger-schema",
+      "body": [
+         "\"$1\": {",
+         "  \"type\": \"object\",",
+         "  \"properties\": {",
+         "    $2",
+         "  },",
+         "  \"required\": [ $3 ]",
+         "}"
+      ],
+      "description": "Reusable schema object"
+   },
+   "Swagger Query Parameter": {
+      "prefix": "swagger-param-query",
+      "body": [
+         "{",
+         "  \"name\": \"$1\",",
+         "  \"in\": \"query\",",
+         "  \"required\": false,",
+         "  \"schema\": { \"type\": \"$2\" },",
+         "  \"description\": \"$3\"",
+         "}"
+      ],
+      "description": "Query parameter"
+   },
+   "Swagger Path Parameter": {
+      "prefix": "swagger-param-path",
+      "body": [
+         "{",
+         "  \"name\": \"$1\",",
+         "  \"in\": \"path\",",
+         "  \"required\": true,",
+         "  \"schema\": { \"type\": \"$2\" },",
+         "  \"description\": \"$3\"",
+         "}"
+      ],
+      "description": "Path parameter"
+   },
+   "Swagger Bearer Auth": {
+      "prefix": "swagger-auth",
+      "body": [
+         "\"security\": [",
+         "  { \"bearerAuth\": [] }",
+         "]"
+      ],
+      "description": "Bearer token authorization"
+   }
+}
