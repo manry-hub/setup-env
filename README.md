@@ -1,6 +1,6 @@
 # Applications
 
--   Vscode, Netbeans, Dbeaver, Docker, Postman, Warp Terminal, Obsidian, Brave, LocalWP, Xterm, LibreOffice, XAMPP, blur my shell, zsh, visual paradigm, cava, btop
+-   Vscode, Netbeans, Dbeaver, Docker, Postman, Warp Terminal, Obsidian, Brave, LocalWP, Xterm, LibreOffice, XAMPP, blur my shell, zsh, visual paradigm, cava, btop, gitkraken
 
 # Manajemen
 
