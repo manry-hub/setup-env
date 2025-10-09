@@ -1,0 +1,176 @@
+{
+    "workbench.iconTheme": "bearded-icons",
+    "oneDarkPro.bold": true,
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#c6d0d33f",
+        "editor.background": "#000000",
+        "statusBar.background": "#292929",
+        "tab.inactiveBackground": "#000000",
+        "tab.border": "#494949",
+        "sideBarTitle.background": "#000000",
+        "activityBar.background": "#000000",
+        "sideBar.background": "#000000",
+        "panel.background": "#000000",
+        "terminal.background": "#000000",
+        "statusBarItem.remoteBackground": "#585857",
+        "titleBar.activeBackground": "#000000",
+        "editorGroupHeader.tabsBackground": "#000000"
+    },
+
+    "workbench.startupEditor": "none",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.settings.applyToAllProfiles": ["workbench.startupEditor", "codesnap.transparentBackground"],
+    "workbench.editor.enablePreview": true,
+    "workbench.editor.enablePreviewFromCodeNavigation": true,
+    "workbench.editor.pinnedTabsOnSeparateRow": true,
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.reduceMotion": "on",
+    "workbench.statusBar.visible": false,
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.layoutControl.enabled": false,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.fontSize": 13,
+    "chat.editor.fontSize": 13,
+    "editor.fontSize": 12.5,
+    "editor.lineHeight": 20,
+    "editor.fontFamily": "Fira Code",
+    "editor.codeLensFontFamily": "Fira Code, monospace",
+    "editor.fontLigatures": false,
+    "editor.letterSpacing": 0.3,
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "expand",
+    "editor.linkedEditing": true,
+    "editor.autoIndent": "full",
+    "editor.guides.bracketPairs": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "on",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": false,
+    "editor.renderLineHighlight": "gutter",
+    "editor.smoothScrolling": false,
+
+    "editor.minimap.size": "fit",
+    "editor.minimap.autohide": "mouseover",
+    "editor.minimap.sectionHeaderFontSize": 19,
+    "window.commandCenter": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 15000,
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/.next": true,
+        "**/.turbo": true,
+        "**/.vercel": true,
+        "**/.expo": true,
+        "**/packages/**/node_modules": true,
+        "**/dist": true,
+        "**/build": true,
+        "**/yarn.lock": false,
+        "**/prisma/migrations": true,
+        "**/coverage": true,
+        "**/logs": true,
+        "**/tmp": true,
+        "**/.cache": true,
+        "**/.eslintcache": true
+    },
+    "security.workspace.trust.enabled": false,
+    "search.showLineNumbers": true,
+    "codesnap.transparentBackground": true,
+    "extensions.autoUpdate": false,
+    "extensions.autoCheckUpdates": false,
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    },
+    "path-intellisense.showHiddenFiles": true,
+    "npm-intellisense.packageSubfoldersIntellisense": true,
+    "workbench.externalBrowser": "chrome",
+    "database-client.autoSync": true,
+    "database-client.capitalizeKeywordsWhenFormatting": true,
+    "database-client.formatOnSave": true,
+    "database-client.defaultConnection": "local",
+    "redhat.telemetry.enabled": false,
+    "javascript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 150,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.analysis.typeCheckingMode": "standard",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.callArgumentNames": "all",
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.useLibraryCodeForTypes": true,
+    "python.analysis.indexing": true,
+    "python.analysis.packageIndexDepths": [
+        {
+            "name": "numpy",
+            "depth": 2
+        },
+        {
+            "name": "pandas",
+            "depth": 2
+        }
+    ],
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": ["storage.type.annotation.java", "meta.declaration.annotation.java"],
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": ["entity.name.type.interface", "entity.other.inherited-class"],
+                "settings": {
+                    "foreground": "#98C379"
+                }
+            }
+        ]
+    },
+
+    "[sql]": {
+        "editor.defaultFormatter": "cweijan.vscode-database-client2"
+    },
+
+    "chat.commandCenter.enabled": false,
+    "search.exclude": {
+        "**/node_modules": false
+    },
+    "search.followSymlinks": false,
+    "search.quickOpen.includeSymbols": true,
+    "workbench.panel.showLabels": false,
+    "window.menuBarVisibility": "compact",
+    "liveServer.settings.donotShowInfoMsg": true
+
+}
+

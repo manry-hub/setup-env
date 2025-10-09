@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+<sql date="1755534984809" url="jdbc:postgresql://localhost:5432/booking_hotel_db">SELECT feature_id FROM information_schema.sql_features LIMIT 100</sql>
+</history>
