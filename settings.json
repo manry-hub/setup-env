@@ -1,10 +1,10 @@
 {
-    "workbench.iconTheme": "bearded-icons",
     "oneDarkPro.bold": true,
     "workbench.colorCustomizations": {
         "editor.selectionBackground": "#c6d0d33f",
         "editor.background": "#000000",
-        "statusBar.background": "#292929",
+        "statusBar.background": "#000000",
+        "statusBar.border": "#343434",
         "tab.inactiveBackground": "#000000",
         "tab.border": "#494949",
         "sideBarTitle.background": "#000000",
@@ -14,9 +14,17 @@
         "terminal.background": "#000000",
         "statusBarItem.remoteBackground": "#585857",
         "titleBar.activeBackground": "#000000",
-        "editorGroupHeader.tabsBackground": "#000000"
+        "editorGroupHeader.tabsBackground": "#000000",
+        "editorGroupHeader.tabsBorder": "#393939",
+        "tab.activeBorderTop": "#ffffff",
+        "editorHoverWidget.background": "#010101ba",
+        "editorHoverWidget.border": "#5e5d5dd0",
+        "editorSuggestWidget.background": "#040404",
+        "editor.lineHighlightBackground": "#1073cf2d",
+        "editor.lineHighlightBorder": "#9fced11f"
     },
-
+    "antigravity.enableAgentMode": false,
+    "chat.agent.enabled": false,
     "workbench.startupEditor": "none",
     "workbench.secondarySideBar.defaultVisibility": "hidden",
     "workbench.settings.applyToAllProfiles": ["workbench.startupEditor", "codesnap.transparentBackground"],
@@ -26,8 +34,8 @@
     "workbench.editor.wrapTabs": true,
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.reduceMotion": "on",
-    "workbench.statusBar.visible": false,
-    "workbench.colorTheme": "One Dark Pro Darker",
+    "window.newWindowDimensions": "fullscreen",
+    "window.title": "${activeFolderMedium}${separator}${remoteName}${separator}${activeRepositoryBranchName}",
     "workbench.layoutControl.enabled": false,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "underline",
@@ -37,7 +45,6 @@
     "editor.lineHeight": 20,
     "editor.fontFamily": "Fira Code",
     "editor.codeLensFontFamily": "Fira Code, monospace",
-    "editor.fontLigatures": false,
     "editor.letterSpacing": 0.3,
     "editor.cursorStyle": "line",
     "editor.cursorBlinking": "expand",
@@ -49,7 +56,7 @@
     "editor.tabCompletion": "on",
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
-    "editor.wordWrap": "on",
+    "editor.wordWrap": "off",
     "editor.quickSuggestions": {
         "strings": "on"
     },
@@ -58,32 +65,13 @@
     "editor.formatOnType": false,
     "editor.renderLineHighlight": "gutter",
     "editor.smoothScrolling": false,
-
     "editor.minimap.size": "fit",
     "editor.minimap.autohide": "mouseover",
     "editor.minimap.sectionHeaderFontSize": 19,
-    "window.commandCenter": false,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 15000,
     "files.associations": {
         "*.css": "tailwindcss"
-    },
-    "files.exclude": {
-        "**/node_modules": true,
-        "**/.next": true,
-        "**/.turbo": true,
-        "**/.vercel": true,
-        "**/.expo": true,
-        "**/packages/**/node_modules": true,
-        "**/dist": true,
-        "**/build": true,
-        "**/yarn.lock": false,
-        "**/prisma/migrations": true,
-        "**/coverage": true,
-        "**/logs": true,
-        "**/tmp": true,
-        "**/.cache": true,
-        "**/.eslintcache": true
     },
     "security.workspace.trust.enabled": false,
     "search.showLineNumbers": true,
@@ -96,10 +84,6 @@
     "path-intellisense.showHiddenFiles": true,
     "npm-intellisense.packageSubfoldersIntellisense": true,
     "workbench.externalBrowser": "chrome",
-    "database-client.autoSync": true,
-    "database-client.capitalizeKeywordsWhenFormatting": true,
-    "database-client.formatOnSave": true,
-    "database-client.defaultConnection": "local",
     "redhat.telemetry.enabled": false,
     "javascript.suggest.autoImports": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
@@ -107,40 +91,41 @@
     "prettier.tabWidth": 4,
     "prettier.printWidth": 150,
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "python.analysis.typeCheckingMode": "standard",
+        "python.analysis.autoImportCompletions": true,
+        "python.analysis.completeFunctionParens": true,
+        "python.analysis.inlayHints.variableTypes": true,
+        "python.analysis.inlayHints.functionReturnTypes": true,
+        "python.analysis.inlayHints.callArgumentNames": "all",
+        "python.analysis.diagnosticMode": "workspace",
+        "python.analysis.useLibraryCodeForTypes": true,
+        "python.analysis.indexing": true,
+        "python.analysis.packageIndexDepths": [
+            {
+                "name": "numpy",
+                "depth": 2
+            },
+            {
+                "name": "pandas",
+                "depth": 2
+            }
+        ]
     },
-    "python.analysis.typeCheckingMode": "standard",
-    "python.analysis.autoImportCompletions": true,
-    "python.analysis.completeFunctionParens": true,
-    "python.analysis.inlayHints.variableTypes": true,
-    "python.analysis.inlayHints.functionReturnTypes": true,
-    "python.analysis.inlayHints.callArgumentNames": "all",
-    "python.analysis.diagnosticMode": "workspace",
-    "python.analysis.useLibraryCodeForTypes": true,
-    "python.analysis.indexing": true,
-    "python.analysis.packageIndexDepths": [
-        {
-            "name": "numpy",
-            "depth": 2
-        },
-        {
-            "name": "pandas",
-            "depth": 2
-        }
-    ],
+
     "[prisma]": {
         "editor.defaultFormatter": "Prisma.prisma"
     },
     "[blade]": {
-        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter",
+        "laravel.disableTranslationWarnings": true
     },
     "[php]": {
-        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+        "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
     },
     "[java]": {
         "editor.defaultFormatter": "redhat.java"
     },
-
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -157,11 +142,6 @@
             }
         ]
     },
-
-    "[sql]": {
-        "editor.defaultFormatter": "cweijan.vscode-database-client2"
-    },
-
     "chat.commandCenter.enabled": false,
     "search.exclude": {
         "**/node_modules": false
@@ -169,8 +149,37 @@
     "search.followSymlinks": false,
     "search.quickOpen.includeSymbols": true,
     "workbench.panel.showLabels": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "terminal.integrated.inheritEnv": false,
+    "window.zoomLevel": 1,
     "window.menuBarVisibility": "compact",
-    "liveServer.settings.donotShowInfoMsg": true
-
+    "workbench.secondarySideBar.showLabels": false,
+    "terminal.integrated.stickyScroll.enabled": false,
+    "workbench.editorAssociations": {
+        "*.dat": "default"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "window.commandCenter": false,
+    "editor.inlayHints.enabled": "on",
+    "diffEditor.wordWrap": "off",
+    "editor.guides.indentation": false,
+    "editor.guides.bracketPairsHorizontal": true,
+    "editor.bracketPairColorization.enabled": true,
+    "php.completion.showParameters": true,
+    "php.problems.exclude": {
+        "**/*": ["PHP0413"]
+    },
+    "extensions.ignoreRecommendations": true,
+    "[astro]": {
+        "editor.defaultFormatter": "astro-build.astro-vscode"
+    },
+    "workbench.iconTheme": "bearded-icons",
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "Laravel.translation.completion": false,
+    "Laravel.translation.diagnostics": false,
+    "Laravel.translation.hover": false,
+    "Laravel.translation.link": false,
+    "window.newWindowProfile": "Default",
+    "window.customTitleBarVisibility": "windowed",
+    "todohighlight.isEnable": true
 }
-
