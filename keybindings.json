@@ -107,7 +107,7 @@
         "command": "-workbench.action.closeAllEditors"
     },
     {
-        "key": "ctrl+shift+delete",
+        "key": "ctrl+shift+backspace",
         "command": "editor.action.deleteLines",
         "when": "textInputFocus && !editorReadonly"
     },
@@ -119,6 +119,79 @@
     {
         "key": "ctrl+alt+p",
         "command": "workbench.profiles.actions.switchProfile"
+    },
+    {
+        "key": "meta+j",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "alt+\\",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "editor.action.inlineSuggest.trigger",
+        "when": "editorTextFocus && !editorHasSelection && !inlineSuggestionsVisible"
+    },
+    {
+        "key": "alt+\\",
+        "command": "-editor.action.inlineSuggest.trigger",
+        "when": "editorTextFocus && !editorHasSelection && !inlineSuggestionsVisible"
+    },
+    {
+        "key": "tab",
+        "command": "antigravity.prioritized.supercompleteAccept",
+        "when": "antigravity.customCompletionShown && editorTextFocus || editorTextFocus && inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible || editorTextFocus && inlineSuggestionVisible && neovim.init && neovim.mode == 'normal' || editorTextFocus && inlineSuggestionVisible && vim.active && vim.mode == 'Normal'"
+    },
+    {
+        "key": "tab",
+        "command": "-antigravity.prioritized.supercompleteAccept",
+        "when": "antigravity.customCompletionShown && editorTextFocus || editorTextFocus && inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible || editorTextFocus && inlineSuggestionVisible && neovim.init && neovim.mode == 'normal' || editorTextFocus && inlineSuggestionVisible && vim.active && vim.mode == 'Normal'"
+    },
+    {
+        "key": "ctrl+'",
+        "command": "outline.focus"
+    },
+    {
+        "key": "ctrl+shift+'",
+        "command": "workbench.explorer.fileView.focus"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "-editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+;",
+        "command": "-breadcrumbs.focus",
+        "when": "breadcrumbsPossible && breadcrumbsVisible"
+    },
+    {
+        "key": "ctrl+shift+;",
+        "command": "workbench.files.action.collapseExplorerFolders"
+    },
+    {
+        "key": "ctrl+meta+pageup",
+        "command": "workbench.action.toggleZenMode",
+        "when": "!isAuxiliaryWindowFocusedContext"
+    },
+    {
+        "key": "ctrl+k z",
+        "command": "-workbench.action.toggleZenMode",
+        "when": "!isAuxiliaryWindowFocusedContext"
     }
 ]
-
